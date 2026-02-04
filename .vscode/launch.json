@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PrincipalFX",
+            "request": "launch",
+            "mainClass": "src.ui.PrincipalFX",
+            "projectName": "ProyectoJava_86512a8f"
+        },
+        {
+            "type": "java",
+            "name": "LicenciaFX",
+            "request": "launch",
+            "mainClass": "src.ui.LicenciaFX",
+            "projectName": "ProyectoJava_86512a8f"
+        },
+        {
+            "type": "java",
+            "name": "Licencia",
+            "request": "launch",
+            "mainClass": "src.Licencia",
+            "projectName": "ProyectoJava_86512a8f"
+        },
+        {
+            "type": "java",
+            "name": "BienvenidaFX",
+            "request": "launch",
+            "mainClass": "src.ui.BienvenidaFX",
+            "projectName": "ProyectoJava_86512a8f"
+        },
+        {
+            "type": "java",
+            "name": "LoginCSS",
+            "request": "launch",
+            "mainClass": "src.ui.LoginCSS",
+            "projectName": "ProyectoJava_86512a8f"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

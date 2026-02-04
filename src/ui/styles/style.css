@@ -1,0 +1,131 @@
+/* Estilo para el fondo de las ventanas */
+.root {
+    -fx-background-color: #ff0000;
+    -fx-padding: 0;
+    -fx-alignment:center;
+}
+
+.root-padding {
+    -fx-padding: 40;
+}
+
+.form-container {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-background-radius: 15;
+    -fx-padding:40;
+    -fx-min-width: 450px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 5);
+}
+
+.button{
+    -fx-background-color: white;
+    -fx-text-fill: rgb(255, 0, 0);
+    -fx-font-size: 16px;
+    -fx-font-family: "Andale Mono";
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-cursor: hand;
+    -fx-min-width: 200;
+}
+
+.button:hover {
+    -fx-background-color: #f2f2f2;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-family: "Andale Mono";
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.text-area {
+    -fx-font-family: "Consolas", "Monospaced";
+    -fx-font-size: 13px;
+    -fx-control-inner-background: #f8f8f8; /* Color de fondo interno */
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+}
+
+.text-field, .password-field {
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-min-width: 200;
+}
+
+/* Para las alertas */
+/* El contenedor principal de la alerta */
+.dialog-pane {
+    -fx-background-color: #ff0000;
+}
+
+/* El texto principal (ContentText) */
+.dialog-pane > .content.label {
+    -fx-font-size: 14px;
+}
+
+/* La cabecera (Header) si la usaras */
+.dialog-pane .header-panel {
+    -fx-background-color: #c0392b;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Estilo para los botones de la alerta (Aceptar/Cancelar) */
+.dialog-pane .button {
+    -fx-background-color: white;
+    -fx-text-fill: #ff0000;
+}
+
+.dialog-pane .button:hover {
+    -fx-background-color: #f2f2f2;
+}
+
+.titulo-licencia {
+    -fx-text-fill: white;
+    -fx-font-family: "Andale Mono";
+    -fx-font-size: 14px;
+}
+
+/*Estilos para el menu de PrincipalFX*/
+
+.menu-bar {
+    -fx-background-color: #c0392b; /* Rojo más oscuro para contraste */
+}
+
+.menu-bar .label {
+    -fx-font-size: 14px;
+}
+
+.menu-item .label {
+    -fx-text-fill: black;
+}
+
+.context-menu {
+    -fx-background-color: white;
+}
+
+.text-area {
+    -fx-font-family: "Consolas", "Monospaced";
+    -fx-font-size: 13px;
+    -fx-control-inner-background: #f8f8f8;
+    -fx-border-color: #c0392b; /* Rojo oscuro por defecto */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* Efecto de foco para que brille cuando se calcula */
+.text-area:focused {
+    -fx-border-color: #ff0000;
+    -fx-effect: dropshadow(three-pass-box, rgba(255,0,0,0.4), 10, 0, 0, 0);
+}

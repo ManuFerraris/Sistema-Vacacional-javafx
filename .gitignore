@@ -1,0 +1,19 @@
+### Data
+/data
+
+# Bin
+/bin
+bin/
+.settings/
+.classpath
+.project
+*.class
+
+#.vscode
+/vscode
+
+# Sistema2
+.Sistema2
+
+# SistemaCocacola.jar
+.SistemaCocacola
