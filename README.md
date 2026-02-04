@@ -34,7 +34,7 @@ Dirigirse a la carpeta "screenshots" donde verán las imagenes de las pantallas.
 ## Instalación y Ejecución
 1. Clona el repositorio:
    ```bash
-   git clone [https://github.com/tu-usuario/proyecto-coca-cola.git](https://github.com/tu-usuario/proyecto-coca-cola.git)
+   git clone [https://github.com/ManuFerraris/Sistema-Vacacional-javafx.git](https://github.com/ManuFerraris/Sistema-Vacacional-javafx.git)
 2. Asegúrate de tener instalado el JDK 8 (o superior) con soporte para JavaFX.
 3. Compila y ejecuta la clase LoginCSS.java para iniciar el sistema.
 
